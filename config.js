@@ -25,7 +25,7 @@ DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBU
 if (!(process.env.SESSION || process.env.SESSION_ID)) throw new Error("No session found, add session before starting bot")
 module.exports = {
     VERSION: 'v4.0.0',
-    ALIVE: process.env.ALIVE || "https://i.imgur.com/KCnoMM2.jpg Hey {sender}, WAJACKS IS MY OWNER RESPECT HIM...ANYWAYS \n Uptime: {uptime} \n ANGUKA NAYO...",
+    ALIVE: process.env.ALIVE || "https://i.imgur.com/P7ziVhr.jpeg Hey {sender}, WAJACKS IS MY OWNER RESPECT HIM...ANYWAYS \n Uptime: {uptime} \n ANGUKA NAYO...",
     BLOCK_CHAT: process.env.BLOCK_CHAT || '',
     PM_ANTISPAM: convertToBool(process.env.PM_ANTISPAM) || '',
     ALWAYS_ONLINE: convertToBool(process.env.ALWAYS_ONLINE) || true,
@@ -52,7 +52,7 @@ module.exports = {
     SESSION: (process.env.SESSION || process.env.SESSION_ID || '').trim() || 'Raganork~0079b8a18d4f0381bc5887d2cdbef519:424d45626a69486d4a71383d',
     IMGBB_KEY: ["76a050f031972d9f27e329d767dd988f", "deb80cd12ababea1c9b9a8ad6ce3fab2", "78c84c62b32a88e86daf87dd509a657a"],
     RG: process.env.RG || '919074309534-1632403322@g.us,120363116963909366@g.us',
-    BOT_INFO: process.env.BOT_INFO || 'ミ★ 𝘙𝘈𝘎𝘈𝘕𝘖𝘙𝘒 ★彡;░⡷▁🅦🅐🅙🅐🅒🅚🅢▁⢾░;254102510747;https://imgur.com/Net5lhZ;https://chat.whatsapp.com/LbjZf963upIBoCU4zkfhgD',
+    BOT_INFO: process.env.BOT_INFO || 'ミ★ 𝘙𝘈𝘎𝘈𝘕𝘖𝘙𝘒 ★彡;░⡷▁🅦🅐🅙🅐🅒🅚🅢▁⢾░;254102510747;https://i.imgur.com/P7ziVhr.jpeg;https://chat.whatsapp.com/LbjZf963upIBoCU4zkfhgD',
     RBG_KEY: process.env.RBG_KEY || '',
     ALLOWED: process.env.ALLOWED || '91,94,2',
     NOT_ALLOWED: process.env.ALLOWED || '91,94,212',
