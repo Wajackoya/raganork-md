@@ -56,7 +56,7 @@ module.exports = {
     RBG_KEY: process.env.RBG_KEY || '',
     ALLOWED: process.env.ALLOWED || '91,94,2',
     NOT_ALLOWED: process.env.ALLOWED || '91,94,212',
-    CHATBOT: process.env.CHATBOT || 'on',
+    CHATBOT: process.env.CHATBOT || 'off',
     HANDLERS: process.env.HANDLERS || '.',
     STICKER_DATA: process.env.STICKER_DATA || "░⡷▁🅦🅐🅙🅐🅒🅚🅢▁⢾░",
     BOT_NAME: process.env.BOT_NAME || 'R⃣   A⃣   G⃣   A⃣   N⃣   O⃣   R⃣   K⃣',
